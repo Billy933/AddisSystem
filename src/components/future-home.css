@@ -1,0 +1,73 @@
+/* Homepage direction: floating navigation, chromatic product panels and circuit details. */
+.home-reference .banner-art .banner-mobile-image{display:none}
+.home-reference .home-about .story-grid{align-items:stretch;gap:64px}
+.home-reference .home-about .story-art{display:flex;min-height:0}
+.home-reference .home-about .story-art .supplied-visual{height:100%;width:100%;border-radius:24px}
+.home-reference .home-about .story-art img{height:100%;min-height:480px;object-fit:cover;object-position:46% center}
+.home-reference .home-about-content{padding-block:0;min-width:0}
+.home-reference .home-about .section-title h2{font-size:clamp(32px,3vw,44px);margin-bottom:18px}
+.home-reference .home-about .section-title .lead{font-size:16px;line-height:1.7}
+.home-reference .home-about-copy{font-size:14px;line-height:1.75;margin-top:18px}
+.home-reference .home-about .home-values{margin-block:22px}
+.home-reference .home-about .home-values>div{padding:14px 0;gap:16px}
+.home-reference .home-about .home-values h3{font-size:17px;margin-bottom:5px}
+.home-reference .home-about .home-values p{font-size:13px;line-height:1.65}
+.site-header.home-floating-header{position:absolute;top:20px;left:0;width:100%;background:transparent;border:0;padding-inline:24px}
+.home-floating-header .nav{width:min(1280px,100%);min-height:76px;padding:12px 26px;border:1px solid #ffffffb3;border-radius:25px;background:#fffffff2;box-shadow:0 12px 45px #02082030;backdrop-filter:blur(20px)}
+.home-floating-header .nav .button{border-radius:16px}
+.home-reference .main-banner.main-banner{min-height:740px;height:min(850px,100svh);border-radius:0 0 36px 36px}
+.home-reference .banner-copy{padding-top:150px;padding-bottom:65px}
+.home-reference .banner-copy-inner{position:relative}
+.home-reference .banner-copy .eyebrow:before{content:'';width:7px;height:7px;border-radius:50%;background:#b5f6d0;box-shadow:0 0 16px #69f8b7}
+.home-reference .banner-copy h1>span{background:linear-gradient(100deg,#d7c9ff,#b9eaff);color:transparent;background-clip:text}
+.home-reference .banner-product-links{border-color:#b2a3ff40}
+.home-reference .banner-product-links a{transition:color .2s}.home-reference .banner-product-links a:hover{color:#c8b8ff}
+.home-reference .home-products{position:relative}
+.home-reference .home-products:before{content:'';position:absolute;top:20px;right:0;width:220px;height:160px;background-image:radial-gradient(#7e65d636 1px,transparent 1px);background-size:14px 14px;mask-image:linear-gradient(90deg,transparent,#000);pointer-events:none}
+.home-reference .product-grid{gap:20px}
+.home-reference .product-card{--card-accent:#7442dd;--card-tint:#efe6ff;position:relative;border:1px solid color-mix(in srgb,var(--card-accent) 25%,white);border-radius:24px;background:linear-gradient(155deg,#fff 25%,var(--card-tint));box-shadow:0 12px 36px #17152e08}
+.home-reference .product-card-hex-erp{--card-accent:#b44717;--card-tint:#ffecd9}
+.home-reference .product-card-shelf{--card-accent:#286c58;--card-tint:#dff8e9}
+.home-reference .product-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px color-mix(in srgb,var(--card-accent) 15%,transparent)}
+.home-reference .product-card-image{position:relative;background:radial-gradient(ellipse at 50% 100%,color-mix(in srgb,var(--card-accent) 60%,#182345),#090f2c 75%);margin:10px 10px 0;border-radius:17px}
+.home-reference .product-card-image:after{content:'';position:absolute;inset:0;border:1px solid #ffffff25;border-radius:inherit;pointer-events:none}
+.home-reference .product-card-image img{height:185px;aspect-ratio:auto;object-fit:contain;mix-blend-mode:screen}
+.home-reference .home-card-body{padding:22px 24px 24px}
+.home-reference .card-top{margin-bottom:12px}.home-reference .card-top .eyebrow{color:var(--card-accent);font-size:9px}
+.home-reference .card-index{color:var(--card-accent);border:1px solid color-mix(in srgb,var(--card-accent) 25%,transparent);border-radius:50%;width:26px;height:26px;display:grid;place-items:center;flex-shrink:0}
+.home-reference .card-logo{height:34px;margin-bottom:16px}.home-reference .card-logo img{max-height:34px;max-width:125px}.home-reference .invoice-wordmark{font-size:25px}
+.home-reference .home-card-body h3{font-size:23px;margin-bottom:10px;max-width:none}
+.home-reference .home-card-body>p{font-size:13px;line-height:1.65;margin-bottom:16px}
+.product-capabilities{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:18px}.product-capabilities span{font-size:10px;border-radius:8px;padding:4px 8px;background:#ffffffa6;color:var(--card-accent);border:1px solid color-mix(in srgb,var(--card-accent) 16%,transparent)}
+.home-reference .home-card-body>.text-link{border-color:color-mix(in srgb,var(--card-accent) 20%,transparent);padding-top:14px;color:var(--card-accent)}
+.client-work-section{position:relative;background:#0b112c;color:#f8f7ff;overflow:hidden}
+.client-work-section:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 100% 0,#6638a542,transparent 55%),linear-gradient(#afb2ff06 1px,transparent 1px),linear-gradient(90deg,#afb2ff06 1px,transparent 1px);background-size:auto,50px 50px,50px 50px;pointer-events:none}
+.client-work-section>.container{position:relative}.client-work-section .eyebrow{color:#b7a3ff}.client-work-section .lead{color:#bdc5df}.client-work-section .text-link{color:#cfc3ff}
+.client-work-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.client-work-card{padding:25px;border:1px solid #a2a5e52b;border-radius:20px;background:linear-gradient(145deg,#ffffff0a,#ffffff02)}
+.work-card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:9px;color:#b7c4dc;margin-bottom:32px}.work-number{color:#bba9ff;font-size:12px}
+.client-work-card h3{font-size:21px;line-height:1.35;letter-spacing:-.025em;min-height:86px}.client-work-card ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px;padding:0;margin:23px 0 0}.client-work-card li{padding:4px 8px;font-size:10px;border:1px solid #a5a4d22e;border-radius:7px;color:#d1d9f0;background:#a5a4d20a}
+.home-reference .testimonials-section{background:#f6f4fc;color:var(--ink)}.home-reference .testimonials-section .eyebrow{color:var(--purple)}.home-reference .testimonials-section .lead{color:var(--muted)}.home-reference .testimonial-card{background:#fff;border:1px solid #ded6f3;border-radius:22px}.home-reference .testimonial-card blockquote p{color:#24223c;font-size:24px}.home-reference .testimonial-card figcaption span{color:#716882}.home-reference .testimonial-source{color:#5943a4}
+.home-reference .home-blog{position:relative}.home-reference .home-blog .blog-card{border-radius:22px;border-color:#ded9ec;transition:transform .2s,box-shadow .2s}.home-reference .home-blog .blog-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px #32256012}
+.home-reference .home-blog-image{position:relative}.home-reference .home-blog-image:after{content:'ADDIS / PERSPECTIVES';position:absolute;bottom:14px;left:16px;padding:5px 10px;border:1px solid #ffffff55;background:#11172bd9;backdrop-filter:blur(8px);color:#e9e2ff;font-size:8px;letter-spacing:.15em;border-radius:7px}
+.home-reference .home-blog-image img{aspect-ratio:16/10}.home-reference .home-blog .blog-card-body h3{font-size:22px}.home-reference .home-blog .blog-card-body{background:linear-gradient(155deg,#fff,#f4f0fc)}
+@media(max-width:1100px){.home-floating-header .nav{padding-inline:20px}.home-floating-header .nav nav{gap:16px}.home-floating-header .nav>a img{width:165px}.client-work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.client-work-card h3{min-height:56px}}
+@media(max-width:820px){.site-header.home-floating-header{top:14px;padding-inline:18px}.home-floating-header .nav{min-height:68px;border-radius:22px;padding:10px 18px}.home-floating-header .nav nav.is-open{top:calc(100% + 10px);border:1px solid #e4def2;border-radius:20px;box-shadow:0 18px 40px #080e2b30}.home-reference .main-banner.main-banner{height:auto;min-height:0;border-radius:0 0 28px 28px}.home-reference .banner-copy{padding-top:135px;padding-bottom:30px}.home-reference .product-card{display:grid;grid-template-columns:.85fr 1.15fr}.home-reference .product-card-image{margin:10px 0 10px 10px;height:auto;min-height:220px}.home-reference .product-card-image img{height:100%;object-fit:contain}.home-reference .home-card-body{padding:24px}.home-reference .banner-art{height:310px}}
+@media(max-width:540px){.site-header.home-floating-header{padding-inline:12px;top:12px}.home-floating-header .nav{padding-inline:15px}.home-floating-header .nav>a img{width:155px}.home-reference .banner-copy{padding:123px 22px 24px}.home-reference .banner-copy h1{font-size:48px}.home-reference .banner-art{height:235px}.home-reference .product-card{display:flex}.home-reference .product-card-image{margin:10px 10px 0;min-height:0}.home-reference .product-card-image img{height:175px}.home-reference .home-card-body{padding:21px}.home-reference .card-logo{margin-bottom:14px}.home-reference .home-card-body h3{font-size:24px}.client-work-grid{grid-template-columns:1fr}.client-work-card{padding:23px}.client-work-card h3{min-height:0}.work-card-top{margin-bottom:20px}}
+/* Keep mobile copy and artwork in normal flow; never crop the device composition. */
+@media(max-width:820px){
+ .home-reference .main-banner.main-banner{display:flex;flex-direction:column;height:auto;min-height:0}
+ .home-reference .main-banner .banner-copy{position:relative;height:auto;padding:126px 24px 22px;display:block}
+ .home-reference .main-banner .banner-copy-inner{width:100%;max-width:580px;margin-inline:auto}
+ .home-reference .main-banner .banner-copy h1{font-size:clamp(39px,7vw,60px)}
+ .home-reference .main-banner .banner-intro{margin-top:18px;max-width:440px}
+ .home-reference .main-banner .banner-actions{margin-top:22px;gap:12px 20px}
+ .home-reference .main-banner .banner-product-links{margin-top:24px;padding-top:18px}
+ .home-reference .main-banner .banner-art{position:relative;inset:auto;align-self:center;width:min(100%,620px);height:auto;aspect-ratio:900/563;overflow:hidden;margin:0 auto;mask-image:linear-gradient(to bottom,transparent,#000 12%)}
+ .home-reference .main-banner .banner-art .banner-desktop-image{display:none}
+ .home-reference .main-banner .banner-art .banner-mobile-image{display:block;position:static;inset:auto;width:100%;max-width:100%;height:auto;object-fit:contain;aspect-ratio:900/563}
+ .home-reference .home-about .story-grid{gap:30px}
+ .home-reference .home-about .story-art img{height:auto;min-height:0;aspect-ratio:3/2;object-fit:cover}
+ .home-reference .home-about .story-art .supplied-visual{height:auto}
+}
+@media(max-width:400px){.home-reference .main-banner .banner-copy{padding:116px 20px 18px}.home-reference .main-banner .banner-copy h1{font-size:40px}.home-reference .main-banner .banner-product-links{gap:8px}.home-reference .banner-product-links a{font-size:11px}.home-reference .banner-product-links span{font-size:9px}}

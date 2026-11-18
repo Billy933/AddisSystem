@@ -1,0 +1,12 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { CTA, SectionTitle } from '@/components/ui';
+import { ProductVisual } from '@/components/product-visual';
+import { company } from '@/lib/company';
+export const metadata: Metadata = { title: 'About Us', description: 'Learn about Addis Systems PLC, our mission, vision, and values in building digital tools for Ethiopian businesses.' };
+export default function About() { return <>
+  <section className="page-intro container"><p className="eyebrow"><span />ABOUT US · ADDIS SYSTEMS PLC</p><h1>Local understanding.<br /><span className="accent">A broader ambition.</span></h1><p className="lead">We build digital tools for businesses in Ethiopia and beyond, bringing ERP, mobile POS, and cloud services to everyday operations.</p></section>
+  <section className="section soft-section"><div className="container story-grid"><ProductVisual /><div><SectionTitle eyebrow="WHO WE ARE" title="Technology with business in mind.">Our work brings technical expertise together with an understanding of local business needs.</SectionTitle><p className="body-copy">Our product family spans business management, retail, invoicing, business networking, and delivery coordination.</p><p className="body-copy">We serve the needs of teams in retail, real estate, logistics, and services.</p><Link className="text-link company-link" href="/products">Explore our products and service <span aria-hidden="true">↗</span></Link></div></div></section>
+  <section className="section container"><div className="purpose-grid"><article><p className="eyebrow">01 · OUR MISSION</p><h2>Make digital commerce more accessible.</h2><p>Help people and businesses participate in domestic and cross-border trade through accessible, secure, and efficient technology.</p></article><article><p className="eyebrow">02 · OUR VISION</p><h2>Connect the next chapter of African trade.</h2><p>Work toward simpler, connected commercial transactions across Africa through intelligent digital platforms.</p></article></div></section>
+  <section className="section soft-section"><div className="container"><SectionTitle eyebrow="WHAT GUIDES US" title="Values we bring to the work." /><div className="values-grid">{company.values.map((value, index) => <article key={value.name}><span>0{index+1}</span><h3>{value.name}</h3><p>{value.description}</p></article>)}</div></div></section><div className="section-spacer" /><CTA />
+  </>; }

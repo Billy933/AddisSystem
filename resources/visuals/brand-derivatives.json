@@ -1,0 +1,42 @@
+[
+  {
+    "source": "resources/brand/addis-color.png",
+    "sourceDimensions": "3778 × 723",
+    "file": "public/brand/addis-color.webp",
+    "dimensions": "840 × 161",
+    "rights": "Company-supplied brand master; approved by user for website use, 2026-11-16",
+    "alt": "Addis Systems",
+    "transformation": "Proportional resize, WebP, original artwork preserved",
+    "routes": "All routes"
+  },
+  {
+    "source": "resources/brand/addis-white.png",
+    "sourceDimensions": "3778 × 723",
+    "file": "public/brand/addis-white.webp",
+    "dimensions": "840 × 161",
+    "rights": "Company-supplied brand master; approved by user for website use, 2026-11-16",
+    "alt": "Addis Systems",
+    "transformation": "Proportional resize, WebP, original artwork preserved",
+    "routes": "All routes"
+  },
+  {
+    "source": "resources/brand/erp-color.png",
+    "sourceDimensions": "2894 × 1211",
+    "file": "public/brand/erp-color.webp",
+    "dimensions": "700 × 293",
+    "rights": "Company-supplied brand master; approved by user for website use, 2026-11-16",
+    "alt": "HEX ERP",
+    "transformation": "Proportional resize, WebP, original artwork preserved",
+    "routes": "Homepage and product page"
+  },
+  {
+    "source": "resources/brand/shelf-color.png",
+    "sourceDimensions": "4880 × 1398",
+    "file": "public/brand/shelf-color.webp",
+    "dimensions": "700 × 201",
+    "rights": "Company-supplied brand master; approved by user for website use, 2026-11-16",
+    "alt": "Shelf App",
+    "transformation": "Proportional resize, WebP, original artwork preserved",
+    "routes": "Homepage and product page"
+  }
+]

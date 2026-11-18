@@ -1,0 +1,28 @@
+{
+  "source": "ERP E-Invoice Dashboard Across Three Screens.png",
+  "sourceDimensions": {
+    "width": 1585,
+    "height": 992
+  },
+  "sourceOwner": "User-supplied artwork",
+  "approvedBy": "User request to use as the main website banner",
+  "approvedOn": "2026-11-16",
+  "rights": "User-authorized website use of the supplied composition",
+  "alt": "Illustrative business software dashboards displayed across a desktop monitor, phone, and tablet.",
+  "route": "/",
+  "transformation": "Proportional WebP conversion; no crop, retouching, or redrawing",
+  "outputs": [
+    {
+      "file": "public/media/main-banner.webp",
+      "width": 1585,
+      "height": 992,
+      "bytes": 122600
+    },
+    {
+      "file": "public/media/main-banner-mobile.webp",
+      "width": 900,
+      "height": 563,
+      "bytes": 55056
+    }
+  ]
+}
