@@ -1,5 +1,9 @@
 # Company content references
 
+## Pricing publication decision — 18 November 2026
+
+The user requested public Shelf and E-Invoice prices, then explicitly selected the E-Invoice annual schedule beginning at ETB 35,900. Published rates: Shelf Free ETB 0, Premium ETB 3,999/year; E-Invoice Starter ETB 3,200/month or ETB 35,900/year, Business ETB 4,900/month or ETB 51,900/year, Professional ETB 6,500/month or ETB 61,900/year. E-Invoice prices exclude applicable VAT. Savings against twelve monthly payments are ETB 2,500 / 6,900 / 16,100. The alternate annual schedule remains unused. Until the CMS milestone, publication decisions are recorded in the versioned pricing configuration; no CMS approval workflow exists yet.
+
 ## User-supplied references — 18 November 2026
 
 Reviewed both JPGs in `Testimony/` and extracted the text of `content/referance content.docx`. These are private working references and have not been copied into public assets. The homepage now summarizes clearly legible project workflows for Elon Travel Service (CRM and HR management), Rose Travel Agency (CRM), Bridge Tech PLC (HR, CRM, sales, inventory, purchasing, projects), and Addis Transformer and Switch Gears PLC (finance, HR, sales, projects, purchasing, inventory). Handwritten dates and uncertain/crossed-out details are omitted. These are project scope summaries, not quotations or measured outcomes. Existing sourced testimonial quotations remain separately attributed.
